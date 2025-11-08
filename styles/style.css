@@ -6,6 +6,7 @@
   padding: 92px 50px 96px 50px;
   font-size: 18px;
   line-height: 21px; 
+
 }
 
 .letter-none {
@@ -325,8 +326,11 @@
 }
 
 .about__description:last-child {
+
   margin-bottom: 0;
+
 }
+
 
 /* footer */
 .footer {
