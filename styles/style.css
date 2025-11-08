@@ -381,10 +381,6 @@
   list-style: none;
 }
 
-.nav__link_current {
-  text-decoration: none;
-}
-
 .nav__item {
   text-align: center;
 }
