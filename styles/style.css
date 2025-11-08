@@ -1,12 +1,10 @@
-
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   justify-content: space-between;
   padding: 92px 50px 96px 50px;
   font-size: 18px;
-  line-height: 21px; 
-
+  line-height: 21px;
 }
 
 .letter-none {
@@ -26,7 +24,7 @@
   line-height: 24px;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .link:focus {
@@ -36,13 +34,11 @@
 .link:focus-visible {
   color: #970097cb;
   text-decoration-color: #970097cb;
-  
 }
 
 .link:active {
   text-decoration: none;
 }
-
 
 /* header__nav */
 .header .nav {
@@ -167,7 +163,7 @@
   line-height: 26px;
   text-transform: uppercase;
   background-color: transparent;
-  transition: all .3s;
+  transition: all 0.3s;
   cursor: pointer;
 }
 
@@ -186,7 +182,6 @@
   border-color: #b6b5b5;
   background-color: #b6b5b5;
 }
-
 
 /* lots */
 .lots {
@@ -233,10 +228,11 @@
   min-height: 596px;
   padding: 48px 40px;
   background: #000 no-repeat scroll center / cover;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
-.lot-card:hover, .lot-card:focus-visible {
+.lot-card:hover,
+.lot-card:focus-visible {
   transform: scale(1.05);
 }
 
@@ -321,16 +317,13 @@
 
 .about__description {
   margin-bottom: 24px;
-  font-size: 20px;    
-  line-height: 24px;  
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .about__description:last-child {
-
   margin-bottom: 0;
-
 }
-
 
 /* footer */
 .footer {
