@@ -119,6 +119,7 @@
 
 .contacts__address {
   text-decoration: none;
+  margin: 0;
 }
 
 /* cover */
@@ -378,6 +379,10 @@
 .footer__nav-list {
   flex-direction: column;
   list-style: none;
+}
+
+.nav__link_current {
+  text-decoration: none;
 }
 
 .nav__item {
